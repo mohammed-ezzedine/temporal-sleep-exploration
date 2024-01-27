@@ -1,0 +1,9 @@
+spring:
+  temporal:
+    test-server:
+      enabled: true
+    workers-auto-discovery:
+      packages:
+        - org.example.temporalsleepexploration.parent
+    namespace: default
+    startWorkers: false

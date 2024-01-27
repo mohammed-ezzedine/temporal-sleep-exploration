@@ -1,0 +1,8 @@
+spring:
+  temporal:
+    connection:
+      target: local
+    workers-auto-discovery:
+      packages:
+        - org.example.temporalsleepexploration.parent
+    namespace: default
